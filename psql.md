@@ -247,15 +247,19 @@ GRANT INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO <dev_write>;
 
 Backup simples:
 ```sql
+-- fora do psql, no terminal
 pg_dump <banco> > backup.sql
 ```
 
 Criar banco onde vai ser restaurado:
 ```sql
-createdb <novo_banco>
+-- entre no psql
+CREATE DATABASE <banco_restore>
+-- saia do psql
 ```
 
 Restore:
 ```sql
+-- fora do psql:
 psql <novo_banco> < backup.sql
 ```
