@@ -22,7 +22,7 @@ CREATE USER <usuario> WITH PASSWORD 'senha_forte';
 
 Excluir usuário:
 ```sql
-DROP ROLE nome_do_usuario;
+DROP ROLE <usuario>;
 ```
 
 Garantir privilégios ao usuário:
