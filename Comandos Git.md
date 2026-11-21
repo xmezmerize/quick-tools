@@ -16,6 +16,7 @@ Muda para uma branch específica (caso precise puxar algo mais específico):
 git checkout <branch>
 ```
 
+
 # Lidando com branch
 
 Acessa a branch onde será possível puxar _pull_ ou enviar _push_ arquivos:
@@ -43,6 +44,7 @@ Integra as alterações de uma branch em outra (cuidado ao usar):
 git merge <branch>
 ```
 
+
 # Recuperar um repositório
 
 Listar o histórico de movimentos (ache o commit desejado pela mensagem e copie o hash):
@@ -59,6 +61,7 @@ Após forçar o commit local, esse comando atualiza o repositório remoto com o 
 ```
 git push origin <nome-da-branch> --force
 ```
+
 
 # Desfazer mudanças
 
@@ -86,6 +89,7 @@ git reset --hard HEAD~1
 > O comando HEAD funciona como um ponteiro, então lembre-se que ao usar HEAD, o `~ + número` usando são referentes ao número de commits que você quer voltar.
 > 
 > Ex. `HEAD~2` volta 2 commits | `HEAD~3` volta 3 commits.
+
 
 # Outros comandos
 
@@ -118,6 +122,7 @@ Remove o .git:
 ```
 rm -rf .git
 ```
+
 
 # Puxar alterações do repositório remoto
 
