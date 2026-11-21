@@ -317,22 +317,6 @@ $\vec{a} \times \vec{b}$
 ```
 Ex. $\vec{a} \times \vec{b}$
 
-Matriz:
-```latex
-$$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
-```
-Ex. $$
-\begin{bmatrix}
-1 & 2 \
-3 & 4
-\end{bmatrix}$$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
-
-Matriz com parênteses:
-```latex
-$$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
-```
-Ex. $$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
-
 Matriz com colchetes:
 ```latex
 $$
@@ -459,12 +443,6 @@ Colchetes ajustáveis:
 $\left[ \frac{a}{b} \right]$
 ```
 Ex. $\left[ \frac{a}{b} \right]$
-
-Chaves ajustáveis:
-```latex
-$\left\{ \frac{a}{b} \right\}$
-```
-Ex. $\left\{ \frac{a}{b} \right\}$
 
 Ponto médio:
 ```latex
