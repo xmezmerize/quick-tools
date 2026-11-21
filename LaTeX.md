@@ -1,8 +1,5 @@
 
-_Comandos LaTeX essenciais para criação de materiais e textos na web_
-
----
-## Letras, comparadores, conjuntos e símbolos:
+# Letras, comparadores, conjuntos e símbolos:
 
 Letras gregas:
 ```latex
@@ -156,7 +153,7 @@ $\emptyset$
 Ex. $\emptyset$
 
 ---
-## Matemática
+# Matemática
 
 Expoente:
 ```latex
