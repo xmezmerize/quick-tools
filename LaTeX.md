@@ -751,18 +751,6 @@ $\mathfrak{A}$
 ```
 Ex. $\mathfrak{A}$
 
-Equação numerada manualmente:
-```latex
-$$
-\begin{equation} E = mc^2 \tag{1} \end{equation}
-$$
-```
-Ex.
-
-$$  
-\begin{equation} E = mc^2 \tag{1} \end{equation}
-$$
-
 Sistema com três equações:
 ```latex
 $$
