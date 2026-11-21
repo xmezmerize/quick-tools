@@ -319,37 +319,19 @@ Ex. $\vec{a} \times \vec{b}$
 
 Matriz:
 ```latex
-$$
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
-$$
+$$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
 ```
-Ex.
-$$  
-\begin{bmatrix}  
-1 & 2 \  
-3 & 4  
-\end{bmatrix}  
-$$
+Ex. $$
+\begin{bmatrix}
+1 & 2 \
+3 & 4
+\end{bmatrix}$$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
 
 Matriz com parênteses:
 ```latex
-$$
-\begin{pmatrix}
-1 & 2 \\
-3 & 4
-\end{pmatrix}
-$$
+$$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
 ```
-Ex.
-$$  
-\begin{pmatrix}  
-1 & 2 \  
-3 & 4  
-\end{pmatrix}  
-$$
+Ex. $$\begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}$$
 
 Matriz com colchetes:
 ```latex
@@ -558,9 +540,9 @@ Ex. $\mathbb{E}[X]$
 
 Variância:
 ```latex
-$\operatorname{Var}(X)$
+$\mathrm{Var}(X)$
 ```
-Ex. $\operatorname{Var}(X)$
+Ex. $\mathrm{Var}(X)$
 
 Média:
 ```latex
@@ -675,9 +657,9 @@ Ex. $\overline{z}$
 
 Parte real e imaginária:
 ```latex
-$\operatorname{Re}(z), \operatorname{Im}(z)$
+$\mathrm{Re}(z), \mathrm{Im}(z)$
 ```
-Ex. $\operatorname{Re}(z), \operatorname{Im}(z)$
+Ex. $\mathrm{Re}(z), \mathrm{Im}(z)$
 
 Acento sobre uma variável:
 ```latex
@@ -772,13 +754,13 @@ Ex. $\mathfrak{A}$
 Equação numerada manualmente:
 ```latex
 $$
-E = mc^2 \tag{1}
+\begin{equation} E = mc^2 \tag{1} \end{equation}
 $$
 ```
 Ex.
 
 $$  
-E = mc^2 \tag{1}  
+\begin{equation} E = mc^2 \tag{1} \end{equation}
 $$
 
 Sistema com três equações:
