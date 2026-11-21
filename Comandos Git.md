@@ -1,5 +1,5 @@
 
-##### Buscando repositório remoto
+# Buscando repositório remoto
 
 Baixar as informações do repositório remoto:
 ```
@@ -16,8 +16,7 @@ Muda para uma branch específica (caso precise puxar algo mais específico):
 git checkout <branch>
 ```
 
----
-##### Lidando com branch
+# Lidando com branch
 
 Acessa a branch onde será possível puxar _pull_ ou enviar _push_ arquivos:
 ```
@@ -44,8 +43,7 @@ Integra as alterações de uma branch em outra (cuidado ao usar):
 git merge <branch>
 ```
 
----
-##### Recuperar um repositório
+# Recuperar um repositório
 
 Listar o histórico de movimentos (ache o commit desejado pela mensagem e copie o hash):
 ```
@@ -62,8 +60,7 @@ Após forçar o commit local, esse comando atualiza o repositório remoto com o 
 git push origin <nome-da-branch> --force
 ```
 
----
-##### Desfazer mudanças
+# Desfazer mudanças
 
 Descartar alterações em arquivos modificados (não commitados):
 ```
@@ -90,8 +87,7 @@ git reset --hard HEAD~1
 > 
 > Ex. `HEAD~2` volta 2 commits | `HEAD~3` volta 3 commits.
 
----
-##### Outros comandos
+# Outros comandos
 
 Atualiza a branch com o repositório remoto e adiciona os commits (Usado em erro):
 ```
@@ -123,8 +119,7 @@ Remove o .git:
 rm -rf .git
 ```
 
----
-##### Puxar alterações do repositório remoto
+# Puxar alterações do repositório remoto
 
 Inicializa a conexão com GitHub:
 ```
